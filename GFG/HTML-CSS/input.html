@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form using HTML & css</title>
+    <style>
+        body{
+            background-color: beige;
+            text-align:justify;
+        }
+        .form-group{
+            display:grid;
+        }
+        button{
+            background-color: rgb(123, 123, 190);
+            width: 100px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form class="form-group">
+            <label for="name">Name : </label>
+            <input type="text" id="name" required>
+            </br></br>
+    
+            <label for="age">Age : </label>
+            <input type="number" id="age" placeholder="age"></br></br>
+    
+            <label for="email">Email : </label>
+            <input type="email" id="email"  value="abc@gmail.com">
+            </br></br>
+    
+            <label>Contact Number : </label>
+            <input id="Contact Number" type="number"></br></br>
+    
+            <label>Password: </label>
+            <input id="password" type="password"></br></br>
+    
+            <label for="fav">Favourite Language</label>
+            <select id="fav" name="" id="">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+            </select></br></br>
+    
+            <label for="gender">Gender : </label>
+    
+            <input name="gender" type="radio" id="male">Male
+            <input name="gender" type="radio" id="female">Female
+            <input name="gender" type="radio" id="other">Other</br>
+            <button>Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
